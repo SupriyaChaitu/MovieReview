@@ -1,0 +1,36 @@
+In this project users can know the details of the movie
+
+ Description of the project:
+     ABOUT PAGE: In this page, Users can know how to use the application(details of the application)
+     SIGNUP PAGE: In this page, Users can register to use the services provided by the application
+     LOGIN PAGE: In this page, Users Can logged into the application
+     MAIN PAGE: In this page, authenticate users can enter the names of the movies and they have the chance to see the reviews of the movie
+     DISPLAY PAGE: In this page, Details of the movie will be displayed!!!
+
+
+API: OPEN MOVIE DB
+Whenever the user enters the name of the movie, it sends a request to the database!!
+If the request is secure, then the API returns the JSON object back !!!!
+
+Python serves alot for requesting the api!
+
+Django is a good backend to store the details of the users and it is a very good python framework !!!
+
+ABOUT API:
+    The OMDBdb is a RESTFUL API web service to obtain movoe information, all content and images on the site are contributed and maiantained by the users
+    User can send the request by https://www.omdbapi.com/?apikey=[yourkey]&
+    There are so many parameters to use but according tp project, Title is the main because user has the chance to enter the name of the Title
+    what I retrieve is 
+    1. imdbrating
+    2. Genre
+    3. movie_name
+    4. released_date
+    5. Runtime
+    6. Writer 
+    7. Director
+    8. Actors
+    9. Country
+    10. Language
+    11. Posters
+    12.Plot and you can retrieve other information toooo 
+(This project will be updated soon with  more features !!!!!! )    :)
